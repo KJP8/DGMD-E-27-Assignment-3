@@ -9,15 +9,52 @@
         <script src="uikit.min.js"></script>
     </head>
     <body>
+        <nav class="uk-navbar uk-navbar-attached">
+            <ul class="uk-navbar-nav uk-hidden-small">
+                <li class="uk-active"><a href="index.html">Home</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Blog</a></li>
+            </ul>
+            <a href="#offcanvas" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas></a>
+        </nav>
+
+        <!--<div id="offcanvas" class="uk-offcanvas">
+            ...
+        </div>-->
+        
         <div class="uk-grid">
             <header class="uk-width-1-1">
+                <!-- Overlay Common with a position of bottom -->
                 <figure class="uk-overlay">
-                    <img src="img/background/background-large.jpg" alt="Cable Beach Background">
+                    <!-- Cover Layout to ensure image takes up the entire screen width-->
+                    <div class="uk-cover-background">
+                        <img src="img/background/background-large.jpg" alt="Cable Beach Background">
+                    </div>
                     <figcaption class="uk-overlay-panel uk-overlay-background uk-overlay-bottom">
                         <h1><a href="index.html">Keeley and Kevin's Spring Break 2017</a></h1>
                     </figcaption>
                 </figure>
-            </header>
+            </header>            
+        </div>
+        
+        <!-- Container Utility-->
+        <div class="uk-container">
+            <!-- Layout: Large Gutters, Matched Column Heights-->
+            <div class="uk-grid uk-grid-large" data-uk-grid-match>
+                <div class="uk-width-medium-1-2 .uk-width-small-1-1">
+                    <img class="uk-align-medium-right" src="img/main/KandK-large.png" alt="Keeley and Kevin">
+                </div>
+                
+                <!-- Vertical Align Utility -->
+                <div class="uk-width-medium-1-2 .uk-width-small-1-1 uk-vertical-align">
+                    <div class="uk-vertical-align-middle">
+                        <h2>Keeley and Kevin's Spring Break 2017</h2>
+                        <p>Keeley and Kevin spent their 2017 spring break sleeping in, swimming with dolphins, and relaxing by the beach and pool in Nassau, Bahamas. This website is a blog about all of their spring break Bahamas adventures!</p>
+                        <p><a href="">Learn more about Kevin and Keeley</a></p>
+                        <p><a href="">Learn more about their spring break</a></p>
+                    </div>
+                </div>
+            </div>
         </div>
     </body>
 </html>
