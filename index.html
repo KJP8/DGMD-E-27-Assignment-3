@@ -1,26 +1,34 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title></title>
+        <title>K & K Spring Break 2017</title>
         <link rel="stylesheet" href="css/uikit.min.css" />
         <script src="https://code.jquery.com/jquery-3.2.1.min.js"
             integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
             crossorigin="anonymous"></script>
-        <script src="uikit.min.js"></script>
+        <script src="js/uikit.min.js"></script>
     </head>
     <body>
+        <!-- Nav bar -->
         <nav class="uk-navbar uk-navbar-attached">
+            <a href="#offcanvas" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas="{mode:'slide'}"></a>
             <ul class="uk-navbar-nav uk-hidden-small">
                 <li class="uk-active"><a href="index.html">Home</a></li>
                 <li><a href="">About Us</a></li>
                 <li><a href="">Blog</a></li>
             </ul>
-            <a href="#offcanvas" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas></a>
         </nav>
 
-        <!--<div id="offcanvas" class="uk-offcanvas">
-            ...
-        </div>-->
+        <!-- Off-Canvas JS Widget -->
+        <div id="offcanvas" class="uk-offcanvas">
+            <div class="uk-offcanvas-bar">
+                <ul class="uk-nav uk-nav-offcanvas" data-uk-nav>
+                    <li class="uk-active"><a href="index.html">Home</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Blog</a></li>
+                </ul>
+            </div>
+        </div>
         
         <div class="uk-grid">
             <header class="uk-width-1-1">
