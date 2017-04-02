@@ -3,19 +3,22 @@
     <head>
         <title>K & K Spring Break 2017</title>
         <link rel="stylesheet" href="css/uikit.min.css" />
+        <link rel="stylesheet" href="css/components/sticky.min.css" />
         <link rel="stylesheet" href="css/components/slideshow.min.css" />
         <link rel="stylesheet" href="css/components/slidenav.min.css" />
         <script src="https://code.jquery.com/jquery-3.2.1.min.js"
             integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
             crossorigin="anonymous"></script>
         <script type="text/javascript" src="js/uikit.min.js"></script>
+        <script type="text/javascript" src="js/components/sticky.min.js"></script>
         <script type="text/javascript" src="js/components/slideshow.min.js"></script>
         <script type="text/javascript" src="js/components/slider.min.js"></script>
     </head>
     <body>
         
         <!-- Nav bar -->
-        <nav class="uk-navbar uk-navbar-attached">
+        <!-- Sticky JS Widget -->
+        <nav class="uk-navbar" data-uk-sticky>
             <a href="#offcanvas" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas="{mode:'slide'}"></a>
             <ul class="uk-navbar-nav uk-hidden-small">
                 <li class="uk-active"><a href="index.html">Home</a></li>
@@ -82,11 +85,11 @@
                     <li data-slideshow-slide="fade" style="animation-duration: 500ms">
                         <div class="uk-panel uk-panel-box  uk-panel-box">
                             <div class="uk-grid">
-                                <div class="uk-width-1-3">
-                                    <img src="img/index/mon-main.png" alt="Monday">
+                                <div class="uk-width-medium-1-3 uk-width-small-1-1">
+                                    <img class="uk-align-center" src="img/index/mon-main.png" alt="Monday">
                                 </div>
                                 <!-- Vertical Align Utility -->
-                                <div class="uk-width-2-3 uk-vertical-align">
+                                <div class="uk-width-medium-2-3 uk-width-small-1-1 uk-vertical-align">
                                     <div class="uk-vertical-align-middle">
                                         <h3 class="uk-panel-title">Monday</h3>
                                         <p>Monday was a very long day. We woke up at 5:00am, quickly showered, got an Uber, and headed to Boston Logan Airport for our 8:30am flight to Pittsburgh, PA. We probably didn’t need to get up and going so early because it only took 10 minutes to get our bag checked and get through security. We had an hour and a half to kill before boarding. We got some coffee and breakfast and waited patiently for our first flight...</p>
@@ -99,11 +102,11 @@
                     <li data-slideshow-slide="fade" style="animation-duration: 500ms">
                         <div class="uk-panel uk-panel-box uk-panel-box">
                             <div class="uk-grid">
-                                <div class="uk-width-1-3">
-                                    <img src="img/index/tues-main.png" alt="Tuesday">
+                                <div class="uk-width-medium-1-3 uk-width-small-1-1">
+                                    <img class="uk-align-center" src="img/index/tues-main.png" alt="Tuesday">
                                 </div>
                                 <!-- Vertical Align Utility -->
-                                <div class="uk-width-2-3 uk-vertical-align">
+                                <div class="uk-width-medium-2-3 uk-width-small-1-1 uk-vertical-align">
                                     <div class="uk-vertical-align-middle">
                                         <h3 class="uk-panel-title">Tuesday</h3>
                                         <p>We woke up Tuesday morning around 9:00am and promptly changed and headed down to get breakfast. We ate breakfast seaside. The restaurant had every breakfast food you could ever imagine from simple toast to fancy customized omelets to blueberry blintzes and everything in between. I think we both ate our weight in food that morning...</p>
@@ -116,11 +119,11 @@
                     <li data-slideshow-slide="fade" style="animation-duration: 500ms">
                         <div class="uk-panel uk-panel-box uk-panel-box">
                             <div class="uk-grid">
-                                <div class="uk-width-1-3">
-                                    <img src="img/index/wed-main.png" alt="Wednesday">
+                                <div class="uk-width-medium-1-3 uk-width-small-1-1">
+                                    <img class="uk-align-center" src="img/index/wed-main.png" alt="Wednesday">
                                 </div>
                                 <!-- Vertical Align Utility -->
-                                <div class="uk-width-2-3 uk-vertical-align">
+                                <div class="uk-width-medium-2-3 uk-width-small-1-1 uk-vertical-align">
                                     <div class="uk-vertical-align-middle">
                                         <h3 class="uk-panel-title">Wednesday</h3>
                                         <p>We woke up at 6:30am in order to have enough time to eat breakfast, pack for the day, and catch our 7:30am bus to Atlantis. I didn’t imagine we’d have to wake up so early while on vacation, but it was so worth it.</p>
@@ -134,11 +137,11 @@
                     <li data-slideshow-slide="fade" style="animation-duration: 500ms">
                         <div class="uk-panel uk-panel-box uk-panel-box">
                             <div class="uk-grid">
-                                <div class="uk-width-1-3">
-                                    <img src="img/index/thurs-main.png" alt="Thursday">
+                                <div class="uk-width-medium-1-3 uk-width-small-1-1">
+                                    <img class="uk-align-center" src="img/index/thurs-main.png" alt="Thursday">
                                 </div>
                                 <!-- Vertical Align Utility -->
-                                <div class="uk-width-2-3 uk-vertical-align">
+                                <div class="uk-width-medium-2-3 uk-width-small-1-1 uk-vertical-align">
                                     <div class="uk-vertical-align-middle">
                                         <h3 class="uk-panel-title">Thursday</h3>
                                         <p>We slept in again on Thursday and then did the same thing as the past two days – ate delicious breakfast by the beach.</p>
@@ -152,11 +155,11 @@
                     <li data-slideshow-slide="fade" style="animation-duration: 500ms">
                         <div class="uk-panel uk-panel-box uk-panel-box">
                             <div class="uk-grid">
-                                <div class="uk-width-1-3">
-                                    <img src="img/index/fri-main.jpg" alt="Friday">
+                                <div class="uk-width-medium-1-3 uk-width-small-1-1">
+                                    <img class="uk-align-center" src="img/index/fri-main.jpg" alt="Friday">
                                 </div>
                                 <!-- Vertical Align Utility -->
-                                <div class="uk-width-2-3 uk-vertical-align">
+                                <div class="uk-width-medium-2-3 uk-width-small-1-1 uk-vertical-align">
                                     <div class="uk-vertical-align-middle">
                                         <h3 class="uk-panel-title">Friday</h3>
                                         <p>This was our last day in the Bahamas and surprisingly, we were looking forward to coming home. We’d had a ton of fun, but I missed my job and we both missed our cat and our bed.</p>
