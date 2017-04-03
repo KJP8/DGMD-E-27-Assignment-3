@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Blog</title>
+        <link rel="stylesheet" href="css/uikit.min.css" />
+        <link rel="stylesheet" href="css/components/sticky.min.css" />
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+            crossorigin="anonymous"></script>
+        <script type="text/javascript" src="js/uikit.min.js"></script>
+        <script type="text/javascript" src="js/core/nav.min.js"></script>
+        <script type="text/javascript" src="js/components/sticky.min.js"></script>
+        <script type="text/javascript" src="js/core/offcanvas.min.js"></script>
+        <script type="text/javascript" src="js/core/modal.min.js"></script>
+    </head>
+    <body>
+        
+        <!-- Nav bar -->
+        <!-- Sticky JS Widget -->
+        <nav class="uk-navbar" data-uk-sticky>
+            <a href="#offcanvas" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas="{mode:'slide'}"></a>
+            <ul class="uk-navbar-nav uk-hidden-small">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li class="uk-active"><a href="blog.html">Blog</a></li>
+            </ul>
+        </nav>
+
+        <!-- Off-Canvas JS Widget -->
+        <div id="offcanvas" class="uk-offcanvas">
+            <div class="uk-offcanvas-bar">
+                <ul class="uk-nav uk-nav-offcanvas" data-uk-nav>
+                    <!-- Icon Component -->
+                    <li class="uk-active"><a href="index.html"><i class="uk-icon-home"></i> Home</a></li>
+                    <li><a href="about.html"><i class="uk-icon-question-circle"></i> About Us</a></li>
+                    <li><a href="blog.html"><i class="uk-icon-newspaper-o"></i> Blog</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- Header -->
+        <div class="uk-grid">
+            <header class="uk-width-1-1">
+                <!-- Overlay Common with a position of bottom -->
+                <figure class="uk-overlay">
+                    <!-- Cover Layout to ensure the image takes up the entire screen width-->
+                    <div class="uk-cover-background">
+                        <img src="img/background/background-large.jpg" alt="Cable Beach Background">
+                    </div>
+                    <figcaption class="uk-overlay-panel uk-overlay-background uk-overlay-bottom">
+                        <h1><a href="index.html">Keeley and Kevin's Spring Break 2017</a></h1>
+                        <!-- Github Icon Button Component -->
+                        <a href="https://github.com/KJP8/DGMD-E-27-Assignment-3" class="uk-icon-button uk-icon-github uk-align-right"></a>
+                    </figcaption>
+                </figure>
+            </header>            
+        </div>
+        
+        <!-- Main Content -->
+        <!-- Container Center Utility, Grid Wrap -->
+        <div class="uk-container uk-container-center">
+            <!-- Large Gutters, Matched Panel Heights -->
+            <ul class="uk-grid uk-grid-large uk-grid-match" data-uk-grid-match="{target:'.uk-panel'}" data-uk-grid-margin>
+                <li class="uk-width-medium-1-2 uk-width-small-1-1">
+                    <!-- Panel Layout with Nested Grid and Small Gutters -->
+                    <div class="uk-panel uk-panel-box uk-panel-header">
+                        <div class="uk-grid uk-grid-small">
+                            <div class="uk-panel-teaser uk-width-medium-1-2 uk-width-small-1-1">
+                                <img src="img/index/mon-main.png" alt="Monday">
+                            </div>
+                            <div class="uk-width-medium-1-2 uk-width-small-1-1">
+                                <h3 class="uk-panel-title">Monday</h3>
+                                <p>Monday was a very long day. We woke up at 5:00am, quickly showered, got an Uber, and headed to Boston Logan Airport for our 8:30am flight to Pittsburgh, PA. We probably didn’t need to get up and going so early because...</p>
+                                <button class="uk-button" data-uk-modal="{target:'#monday'}">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="uk-width-medium-1-2 uk-width-small-1-1">
+                    <!-- Panel Layout with Nested Grid and Small Gutters -->
+                    <div class="uk-panel uk-panel-box uk-panel-header">
+                        <div class="uk-grid uk-grid-small">
+                            <div class="uk-panel-teaser uk-width-medium-1-2 uk-width-small-1-1">
+                                <img src="img/index/tues-main.png" alt="Tuesday">
+                            </div>
+                            <div class="uk-width-medium-1-2 uk-width-small-1-1">
+                                <h3 class="uk-panel-title">Tuesday</h3>
+                                <p>We woke up Tuesday morning around 9:00am and promptly changed and headed down to get breakfast. We ate breakfast seaside. The restaurant had every breakfast food you could ever imagine from simple toast to fancy customized omelets to blueberry blintzes and everything in between...</p>
+                                <button class="uk-button" data-uk-modal="{target:'#tuesday'}">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <!-- Large Gutters, Matched Panel Heights -->
+            <ul class="uk-grid uk-grid-large uk-grid-match" data-uk-grid-match="{target:'.uk-panel'}" data-uk-grid-margin>
+                <li class="uk-width-medium-1-2 uk-width-small-1-1">
+                    <!-- Panel Layout with Nested Grid and Small Gutters -->
+                    <div class="uk-panel uk-panel-box uk-panel-header">
+                        <div class="uk-grid uk-grid-small">
+                            <div class="uk-panel-teaser uk-width-medium-1-2 uk-width-small-1-1">
+                                <img src="img/index/wed-main.png" alt="Wednesday">
+                            </div>
+                            <div class="uk-width-medium-1-2 uk-width-small-1-1">
+                                <h3 class="uk-panel-title">Wednesday</h3>
+                                <p>We woke up at 6:30am in order to have enough time to eat breakfast, pack for the day, and catch our 7:30am bus to Atlantis. I didn’t imagine we’d have to wake up so early while on vacation, but it was so worth it...</p>
+                                <button class="uk-button" data-uk-modal="{target:'#wednesday'}">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </li>
+                <li class="uk-width-medium-1-2 uk-width-small-1-1">
+                    <!-- Panel Layout with Nested Grid and Small Gutters -->
+                    <div class="uk-panel uk-panel-box uk-panel-header">
+                        <div class="uk-grid uk-grid-small">
+                            <div class="uk-panel-teaser uk-width-medium-1-2 uk-width-small-1-1">
+                                <img src="img/index/thurs-main.png" alt="Thursday">
+                            </div>
+                            <div class="uk-width-medium-1-2 uk-width-small-1-1">
+                                <h3 class="uk-panel-title">Thursday</h3>
+                                <p>We slept in again on Thursday and then did the same thing as the past two days – ate delicious breakfast by the beach.</p>
+                                <p>Once we were done with breakfast, we changed into bathing suits, got some drinks...</p>
+                                <button class="uk-button" data-uk-modal="{target:'#thursday'}">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div class="uk-grid">
+                <div class="uk-width-medium-1-2 uk-width-small-1-1">
+                    <!-- Panel Layout with Nested Grid and Small Gutters -->
+                    <div class="uk-panel uk-panel-box uk-panel-header">
+                        <div class="uk-grid uk-grid-small">
+                            <div class="uk-panel-teaser uk-width-medium-1-2 uk-width-small-1-1">
+                                <img src="img/index/fri-main.jpg" alt="Friday">
+                            </div>
+                            <div class="uk-width-medium-1-2 uk-width-small-1-1">
+                                <h3 class="uk-panel-title">Friday</h3>
+                                <p>This was our last day in the Bahamas and surprisingly, we were looking forward to coming home. We’d had a ton of fun, but I missed my job and we both missed our cat and our bed.</p>
+                                <p>Per usual, we woke up and had a nice seaside breakfast...</p>
+                                <button class="uk-button" data-uk-modal="{target:'#friday'}">Friday</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal JS Widgets -->
+        <!-- Monday -->
+        <div id="monday" class="uk-modal">
+            <div class="uk-modal-dialog uk-modal-dialog-large">
+                <a class="uk-modal-close uk-close"></a>
+                <!-- Article Layout -->
+                <article class="uk-article">
+                    <h1 class="uk-article-title">Monday</h1>
+                    <p class="uk-article-meta">Posted on March 13, 2017</p>
+                    <div class="uk-overflow-container">
+                        <p class="uk-article-lead">Monday was a very long day. We woke up at 5:00am, quickly showered, got an Uber, and headed to Boston Logan Airport for our 8:30am flight to Pittsburgh, PA. We probably didn’t need to get up and going so early because it only took 10 minutes to get our bag checked and get through security. We had an hour and a half to kill before boarding. We got some coffee and breakfast and waited patiently for our first flight.</p>
+                        <p>That first flight was quick – about 45 minutes. I hate flying so that was good for me. We only had a half hour in Pittsburgh before we had to board for our next flight to Nassau, Bahamas. That flight was awful. There were kids crying, so many undergraduate spring-breakers who were already drunk, and we seemed to be surrounded by teens who were bratty and very ungrateful toward their parents… who were paying for them to go to the Bahamas. This was my first ever trip to a Caribbean Island. My parents couldn’t afford to take the whole family anywhere that would take an airplane to get to when I was growing up. It was unbelievable to me that these kids were acting the way they were toward their parents while on the way to their family vacation.</p>
+                        <p>I was so thankful when we landed in the Bahamas around 2pm. Unfortunately, we then had to stand in line for Immigration among these same people for 2 hours. That was a long time standing, but there was a live band and excitement in the air, so it was bearable. Once done with Immigration, we caught our scheduled shuttle and headed to our all-inclusive resort, called Melia.</p>
+                        <p>When we got there, lo-and-behold, we discovered that the drunk spring-breakers and a few of the families with ungrateful teens were also staying at our resort. We all stood in line to check in for about an hour. That being said, they had bartenders delivering drinks to everyone in line so we were all set from the moment we walked in. Additionally, Kevin and I were surprised to find that, aside from waiting in line to check in, we never ran into any of those people again while on the resort, which was great.</p>
+                        <p>We finally got to our room, changed into more appropriate clothing, and sat on our hotel-room balcony overlooking the ocean. It was beautiful and peaceful. I thought I’d seen the bluest water in Martha’s Vineyard… boy was I wrong. This water was so blue and crystal clear.</p>
+                        <p>After our nice rest on the balcony, we headed down to the tapas restaurant for some small bites before our 9pm dinner reservations. Once we finished eating tapas, we walked around the resort to get a feel for where everything was and then walked along the beach for about a half hour. Around 8:30pm, we went back to the room to change for dinner and then headed down to make our reservation at the on-site Italian restaurant, Aqua. The food was okay, but the ambiance of the restaurant was wonderful. By the time dinner was over, we were both so tired from the long day that we decided to just head to bed.</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+        
+        <!-- Tuesday -->
+        <div id="tuesday" class="uk-modal">
+            <div class="uk-modal-dialog uk-modal-dialog-large">
+                <a class="uk-modal-close uk-close"></a>
+                <!-- Article Layout -->
+                <article class="uk-article">
+                    <h1 class="uk-article-title">Tuesday</h1>
+                    <p class="uk-article-meta">Posted on March 14, 2017</p>
+                    <div class="uk-overflow-container">
+                        <p class="uk-article-lead">We woke up Tuesday morning around 9:00am and promptly changed and headed down to get breakfast. We ate breakfast seaside. The restaurant had every breakfast food you could ever imagine from simple toast to fancy customized omelets to blueberry blintzes and everything in between. I think we both ate our weight in food that morning.</p>
+                        <p>After breakfast, we went to the resort’s travel agency office to book an excursion. After reviewing all of the packages and much deliberation (and convincing Kevin that it’s worth it), we booked an excursion to the Atlantis resort on Paradise Island for the following day.</p>
+                        <p>After booking the excursion, we changed into bathing suits and headed to the beach. Of course, we had to first make a pit stop to the wet bar… what’s the point of staying at an all-inclusive resort without a drink in your hand at all times, right? Unfortunately that exact mindset caused me to go beyond my limits, which I discovered around 2:00pm that day after having spent about 3 hours drinking, swimming, and laying in the hot sun. I will spare the details, but I ended up sleeping for a couple of hours in the hotel room while Kevin kept a close eye on me from the balcony.</p>
+                        <p>I was feeling better around 4:00pm so we showered, got dressed up for dinner, and headed down to the tapas restaurant so I could get some food in me. After a nice small bite to eat, we took another evening walk along the beach before heading to our 7:00pm reservations at the resort’s Moonlight Buffet dinner event. It was so wonderful. We sat at a large table by the beach and ate great buffet food from the beach-side restaurant, O’Grille. We shared our table and conversation with a family from Houston, TX while eating and listening to the live band.</p>
+                        <p>After we were finished with dinner, we relaxed on our hotel room balcony for a few hours while we watched the live band. Once the event wrapped up, we put on bathing suits and relaxed in one of the resort hot tubs. It was such a relaxing way to end the day.</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+        
+        <!-- Wednesday -->
+        <div id="wednesday" class="uk-modal">
+            <div class="uk-modal-dialog uk-modal-dialog-large">
+                <a class="uk-modal-close uk-close"></a>
+                <!-- Article Layout -->
+                <article class="uk-article">
+                    <h1 class="uk-article-title">Wednesday</h1>
+                    <p class="uk-article-meta">Posted on March 15, 2017</p>
+                    <div class="uk-overflow-container">
+                        <p class="uk-article-lead">We woke up at 6:30am in order to have enough time to eat breakfast, pack for the day, and catch our 7:30am bus to Atlantis. I didn’t imagine we’d have to wake up so early while on vacation, but it was so worth it.</p>
+                        <p>The bus ride to Atlantis took a while because of traffic, but it was nice to see all of the Bahamian architecture and downtown Nassau along the route. Atlantis is on Paradise Island, which is separate from mainland Nassau, so we could see it from afar during the entire ride. When we finally arrived, we were so excited! We went to the ticket counter, got our tickets and map, and headed on our way through the resort.</p>
+                        <p>The Atlantis resort is HUGE and there is so much to do! Thankfully, the package we bought came with access to everything Atlantis had to offer. The first thing we did was check out the sting ray pool. From there, we spent a decent amount of time walking through the various Lagoons before heading to The Dig. There are many Lagoons on site and our favorite was the Predator Lagoon, which was filled with sharks!</p>
+                        <p>The Dig is a huge aquarium underneath the resort. It was so beautiful. Kevin and I have always loved fish and aquariums, to the point that we were members of the New England Aquarium for a few years in a row, so you can probably assume we had an amazing time going through The Dig – and you’d be right, we did!</p>
+                        <p>After seeing all of the aquariums, we grabbed lunch at one of the pool-side restaurants at Atlantis. Lunch came with the package we bought so we didn’t even have to pay extra for it! The food was really good at Atlantis.</p>
+                        <p>After lunch, we sat by one of the adult-only pools for some peace and quiet. I’ll tell you one thing, as much as we loved Atlantis, we did not enjoy having to be around so many kids. Atlantis is most definitely a family-friendly resort that focuses more on kids and pools than on adults and the beach. Nonetheless, we made our way to the Aquaventure onsite water park and had a blast.</p>
+                        <p>The water park has a whole bunch of water slides. We only went on two of them, but we loved one of the so much that we went on it about five times! This particular slide, called the Serpent Slide, was SO cool. It was a doubles tube slide, meaning we were able to go down it together in a shared two-person inner-tube. When you first start going down the slide, it’s in an enclose tube so everything is dark and you’re going down pretty quickly through twists and turns. Then, when you get toward the end of the tube slide, you end up going really slowly through a clear Plexiglas tube that goes through the Predator Lagoon.  We got to sit there in this shared inner-tube while watching sharks, sting rays, and various other marine life swim around us! It was SO, SO cool.</p>
+                        <p>Once we finished up at the water park, we headed to the Dolphin Cay. Our package came with a Dolphin Encounter, which we knew would be the highlight of the day, so we intentionally scheduled it at the end of everything else. We got there a little early so we sat by the beach and watched the dolphins swim, jump, and play. When it was time for our encounter, we had to change into wet suits and attend a short orientation about how to appropriately interact with the dolphins… then came the best part.</p>
+                        <p>We got into waist-deep water where we were able to be kissed by, pose with, and pet a dolphin. The dolphin trainers educated us on where the dolphin was rescued from. They also told us various other facts about dolphins, such as dolphins pair up with a best friend. The particular dolphin we worked with was best friends with the dolphin who was working with the group next to us. At one point, that other dolphin swam off so our dolphin followed her! It was really cute. Kevin and I both agree that the dolphin interaction was the best part of the entire trip.</p>
+                        <p>When it ended, we changed back into our clothes and headed to where our bus was going to pick us up at 4:30pm. Of course, we stopped at Starbucks along the way. Just like everywhere else, there are Starbucks in all the resorts in the Bahamas, including both Atlantis and Melia.</p>
+                        <p>Our bus trip back was a little quicker than on the way there and the bus driver was a ton of fun. He talked all about the areas we drove through and taught us about Bahamian culture. It was pretty cool stuff.</p>
+                        <p>When we got back to the resort, we showered, got dressed for dinner, and headed to a bar for a quick drink before our 7:00pm reservation. We had dinner at the onsite Mexican restaurant, Cilantro. It was so delicious, definitely the best restaurant they had! We loved it so much that we tried to book it for Thursday night too, but they were already reserved to capacity.</p>
+                        <p>After dinner, we attended another onsite event – a magic show! Kevin loves magic and we both had a blast. The magician goes by The Bahamagician, which I thought was an awesome play on words. He was funny as well as good at magic – a very entertaining evening. Once the show was over, we headed back to our room, changed into bathing suits, and spent the rest of the late evening relaxing in the hot tub again. I think we finally went to bed around midnight.</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+        
+        <!-- Thursday -->
+        <div id="thursday" class="uk-modal">
+            <div class="uk-modal-dialog uk-modal-dialog-large">
+                <a class="uk-modal-close uk-close"></a>
+                <!-- Article Layout -->
+                <article class="uk-article">
+                    <h1 class="uk-article-title">Thursday</h1>
+                    <p class="uk-article-meta">Posted on March 16, 2017</p>
+                    <div class="uk-overflow-container">
+                        <p class="uk-article-lead">We slept in again on Thursday and then did the same thing as the past two days – ate delicious breakfast by the beach.</p>
+                        <p>Once we were done with breakfast, we changed into bathing suits, got some drinks, found some nice lounge chairs on the beach, and spent most of the day just relaxing on the beach. We read books, napped, talked, and generally just enjoyed being together. Of course, we also went swimming in the ocean a few times.</p>
+                        <p>Around lunchtime, we decided to go to the ocean-side restaurant, O’Grille, for lunch. Kevin got this really delicious chipotle jerk chicken wrap and I got a cheeseburger with chipotle mayo. I think that was the most delicious lunch we’d had there so far.</p>
+                        <p>After lunch, we decided to relocate to laying by the adult-only pool in order to take advantage of the swim-up bar. With more drinks in hand, we went back to reading, napping, and talking.</p>
+                        <p>It started to get breezy and a little chilly around 5pm and we were hungry anyway. We went back to the room, showered, and dressed for dinner. We had lite bites at the tapas restaurant again before our 7pm reservations as the Asian restaurant, Nikkei. We didn’t really like the food we ordered and were actually quite full from the tapas, so we didn’t finish our meals and we didn’t stay long.</p>
+                        <p>After dinner, we went back to the hotel room and sat on the balcony to watch another live band by the sea. Just like the nights before, once the band finished and the crowd cleared, we spent the rest of the late evening in the hot tub before going to bed.</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+        
+        <!-- Friday -->
+        <div id="friday" class="uk-modal">
+            <div class="uk-modal-dialog uk-modal-dialog-large">
+                <a class="uk-modal-close uk-close"></a>
+                <!-- Article Layout -->
+                <article class="uk-article">
+                    <h1 class="uk-article-title">Friday</h1>
+                    <p class="uk-article-meta">Posted on March 17, 2017</p>
+                    <div class="uk-overflow-container">
+                        <p class="uk-article-lead">This was our last day in the Bahamas and surprisingly, we were looking forward to coming home. We’d had a ton of fun, but I missed my job and we both missed our cat and our bed.</p>
+                        <p>Per usual, we woke up and had a nice seaside breakfast. We then went back to the room to shower, pack, and get dressed. Since our flight wasn’t until 3pm, we wore clothing appropriate for the Bahamas, but kept a change of winter clothes in our backpacks so we could change before leaving the hotel.</p>
+                        <p>We checked out around 11am, but they let us keep our all-inclusive bracelets on so that we could keep eating and drinking for free. We spent our last few hours at the resort having a drink, eating lunch, and hanging by the pool.</p>
+                        <p>We caught our shuttle back to the airport around 1pm. When we got to the airport, we went through the usual check-in process and then waited in line for US Immigration. Let me tell you, they were not nearly as nice as the people who worked for Bahamas Immigration. These guys were rude and acted like we were a waste of their time – I was not a fan. Considering they are US Citizens who get to live and work in the Bahamas, I’d expect they’d be friendlier.</p>
+                        <p>Around 2:30pm, we boarded for our first flight to Orlando, FL, which was smooth and easy. We flew JetBlue, which I love because all JetBlue flights have TVs, free wifi, and delicious snacks and drinks. We landed in Orlando, got some ice cream, and prepared to board for our next flight to Boston.</p>
+                        <p>The flight to Boston was a little rocky, but not horrible. We landed around 9:30pm. We then had to wait for our bags and grab an Uber. Since it was St. Patrick’s Day, there were not a lot of Ubers at the airport. I assume most of them were in the city where the surcharges were high since it was a holiday. It took about 20 minutes before we were able to get an Uber. We then had to wait another 10 for the Uber to arrive.</p>
+                        <p>It was about 10:30pm by the time we got home. Our cat was so happy to see us and we were happy to be home after a long day of travel. We stayed up a little bit, watched a comedy special on NetFlix, and then went to bed. Sadly, our vacation was officially over and we were prepared to get back on the grind the next day.</p>
+                        <p>The Bahamas was lovely and I highly recommend staying at the Melia.</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+        
+    </body>
+</html>
