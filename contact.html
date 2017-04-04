@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Us</title>
+        <link rel="stylesheet" href="css/style.css" />
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+            crossorigin="anonymous"></script>
+        <script type="text/javascript" src="js/uikit.min.js"></script>
+        <script type="text/javascript" src="js/core/nav.min.js"></script>
+        <script type="text/javascript" src="js/components/sticky.min.js"></script>
+        <script type="text/javascript" src="js/core/offcanvas.min.js"></script>
+    </head>
+    <body>
+        
+        <!-- Nav bar -->
+        <!-- Sticky JS Widget -->
+        <nav class="uk-navbar" data-uk-sticky>
+            <a href="#offcanvas" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas="{mode:'slide'}"></a>
+            <ul class="uk-navbar-nav uk-hidden-small">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li class="uk-active"><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+
+        <!-- Off-Canvas JS Widget -->
+        <div id="offcanvas" class="uk-offcanvas">
+            <div class="uk-offcanvas-bar">
+                <ul class="uk-nav uk-nav-offcanvas" data-uk-nav>
+                    <!-- Icon Common -->
+                    <li><a href="index.html"><i class="uk-icon-home"></i> Home</a></li>
+                    <li><a href="about.html"><i class="uk-icon-question-circle"></i> About Us</a></li>
+                    <li><a href="blog.html"><i class="uk-icon-newspaper-o"></i> Blog</a></li>
+                    <li class="uk-active"><a href="contact.html"><i class="uk-icon-comment-o"></i> Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- Header -->
+        <div class="uk-grid">
+            <header class="uk-width-1-1">
+                <!-- Overlay Common with a position of bottom -->
+                <figure class="uk-overlay">
+                    <!-- Cover Layout to ensure the image takes up the entire screen width-->
+                    <div class="uk-cover-background">
+                        <img src="img/background/background-large.jpg" alt="Cable Beach Background">
+                    </div>
+                    <figcaption class="uk-overlay-panel uk-overlay-background uk-overlay-bottom">
+                        <h1><a href="index.html">Keeley and Kevin's Spring Break 2017</a></h1>
+                        <!-- Github Icon Button Common -->
+                        <a href="https://github.com/KJP8/DGMD-E-27-Assignment-3" class="uk-icon-button uk-icon-github uk-align-right" target="_blank"></a>
+                    </figcaption>
+                </figure>
+            </header>            
+        </div>
+        
+        <!-- Main Content -->
+        <!-- Contact Form -->
+        <div class="uk-container uk-container-center">
+            <!-- Form Stacked Layout Modifier -->
+            <form class="uk-form uk-form-stacked uk-width-1-4 uk-push-1-4">
+                <fieldset>
+                    <legend>Contact Kevin and Keeley</legend>
+                    <div class="uk-form-row">
+                        <label class="uk-form-label" for="form-h-it">Name</label>
+                        <div class="uk-form-controls">
+                            <!-- Form Icon -->
+                            <div class="uk-form-icon">
+                                <i class="uk-icon-user"></i>
+                                <input class="uk-form-width-medium" type="text" id="form-h-it" placeholder="Enter your name">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="uk-form-row">
+                        <label class="uk-form-label" for="form-h-ip">Email Address</label>
+                        <div class="uk-form-controls">
+                            <!-- Form Icon -->
+                            <div class="uk-form-icon">
+                                <i class="uk-icon-envelope-o"></i>
+                                <input class="uk-form-width-medium" type="email" id="form-h-ip" placeholder="Enter your email address">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="uk-form-row">
+                        <label class="uk-form-label" for="form-h-ip">Phone Number</label>
+                        <div class="uk-form-controls">
+                            <!-- Form Icon -->
+                            <div class="uk-form-icon">
+                                <i class="uk-icon-phone"></i>
+                                <input class="uk-form-width-medium" type="tel" id="form-h-ip" placeholder="Enter your phone number">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="uk-form-row">
+                        <label class="uk-form-label" for="form-h-t">Message</label>
+                        <div class="uk-form-controls">
+                            <textarea class="uk-form-width-large" id="form-h-t" cols="30" rows="5" placeholder="Enter your message to Kevin and Keeley"></textarea>
+                        </div>
+                    </div>
+                    <!-- Button Common -->
+                    <div class="uk-form-row">
+                        <button class="uk-button" type="button">Submit</button>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+        
+    </body>
+</html>
