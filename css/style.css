@@ -16,7 +16,7 @@ html {
   -ms-text-size-adjust: 100%;
   /* 3 */
   background: #fff;
-  color: #444;
+  color: #19284B;
 }
 
 /*
@@ -52,7 +52,7 @@ a:hover {
 /* line 129, C:/Users/Keeley/Desktop/Mobile Design/Assignment 3/uikit-2.27.2/scss/core/base.scss */
 a,
 .uk-link {
-  color: #07D;
+  color: #C84280;
   text-decoration: none;
   cursor: pointer;
 }
@@ -60,8 +60,8 @@ a,
 /* line 137, C:/Users/Keeley/Desktop/Mobile Design/Assignment 3/uikit-2.27.2/scss/core/base.scss */
 a:hover,
 .uk-link:hover {
-  color: #059;
-  text-decoration: underline;
+  color: #57b8ca;
+  text-decoration: none;
 }
 
 /* Text-level semantics
@@ -275,7 +275,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 0 15px 0;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
-  color: #444;
+  color: #2EBAAB;
   text-transform: none;
 }
 
@@ -303,7 +303,7 @@ h1, .uk-h1 {
 
 /* line 357, C:/Users/Keeley/Desktop/Mobile Design/Assignment 3/uikit-2.27.2/scss/core/base.scss */
 h2, .uk-h2 {
-  font-size: 24px;
+  font-size: 30px;
   line-height: 30px;
 }
 
@@ -1654,7 +1654,7 @@ iframe {
 .uk-panel-title {
   margin-top: 0;
   margin-bottom: 15px;
-  font-size: 18px;
+  font-size: 24px;
   line-height: 24px;
   font-weight: normal;
   text-transform: none;
@@ -1690,18 +1690,18 @@ iframe {
 /* line 177, C:/Users/Keeley/Desktop/Mobile Design/Assignment 3/uikit-2.27.2/scss/core/panel.scss */
 .uk-panel-box {
   padding: 15px;
-  background: #f5f5f5;
-  color: #444;
+  background: #d9eaed;
+  color: #19284B;
 }
 
 /* line 184, C:/Users/Keeley/Desktop/Mobile Design/Assignment 3/uikit-2.27.2/scss/core/panel.scss */
 .uk-panel-box-hover:hover {
-  color: #444;
+  color: #19284B;
 }
 
 /* line 189, C:/Users/Keeley/Desktop/Mobile Design/Assignment 3/uikit-2.27.2/scss/core/panel.scss */
 .uk-panel-box .uk-panel-title {
-  color: #444;
+  color: #39A2B5;
 }
 
 /* line 191, C:/Users/Keeley/Desktop/Mobile Design/Assignment 3/uikit-2.27.2/scss/core/panel.scss */
@@ -12174,6 +12174,32 @@ a.uk-thumbnail:focus {
 /* line 166, C:/Users/Keeley/Desktop/Mobile Design/Assignment 3/uikit-2.27.2/scss/components/slidenav.scss */
 .uk-slidenav-contrast:active {
   color: rgba(255, 255, 255, 0.9);
+}
+
+/* line 12, C:/Users/Keeley/Desktop/Mobile Design/Assignment 3/uikit-2.27.2/scss/style.scss */
+main {
+  margin: 32px auto;
+}
+
+/* line 16, C:/Users/Keeley/Desktop/Mobile Design/Assignment 3/uikit-2.27.2/scss/style.scss */
+.main-header {
+  margin-bottom: 30px;
+}
+
+/* line 20, C:/Users/Keeley/Desktop/Mobile Design/Assignment 3/uikit-2.27.2/scss/style.scss */
+.main-info, .main-link {
+  font-size: 19px;
+  line-height: 28px;
+}
+
+/* line 25, C:/Users/Keeley/Desktop/Mobile Design/Assignment 3/uikit-2.27.2/scss/style.scss */
+.main-link {
+  font-size: 22px;
+}
+
+/* line 31, C:/Users/Keeley/Desktop/Mobile Design/Assignment 3/uikit-2.27.2/scss/style.scss */
+footer {
+  margin-bottom: 32px;
 }
 
 /*# sourceMappingURL=../css/style.map */

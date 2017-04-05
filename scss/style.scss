@@ -7,3 +7,31 @@
 @import "components/sticky.scss";
 @import "components/slideshow.scss";
 @import "components/slidenav.scss";
+
+// Main info styling
+main {
+    margin: 32px auto;
+}
+
+.main-header {
+    margin-bottom: 30px;
+}
+
+.main-info {
+    font-size: 19px;
+    line-height: 28px;
+}
+
+.main-link {
+    @extend .main-info;
+    font-size: 22px;
+}
+
+// Footer styling
+footer {
+    margin-bottom: 32px;
+    
+    li {
+        float: left;
+    }
+}
