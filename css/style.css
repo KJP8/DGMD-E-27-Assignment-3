@@ -8311,7 +8311,7 @@ a.uk-badge:hover {
   /* 4 */
   padding: 4px;
   border: 1px solid #ddd;
-  background: #fff;
+  background: #d9eaed;
 }
 
 /*
@@ -8324,7 +8324,7 @@ a.uk-badge:hover {
 a.uk-thumbnail:hover,
 a.uk-thumbnail:focus {
   border-color: #aaa;
-  background-color: #fff;
+  background-color: #d9eaed;
   /* 2 */
   text-decoration: none;
   /* 3 */
@@ -8337,7 +8337,7 @@ a.uk-thumbnail:focus {
 .uk-thumbnail-caption {
   padding-top: 4px;
   text-align: center;
-  color: #444;
+  color: #19284B;
 }
 
 /* Sizes
@@ -12187,19 +12187,29 @@ main {
 }
 
 /* line 20, C:/Users/Keeley/Desktop/Mobile Design/Assignment 3/uikit-2.27.2/scss/style.scss */
-.main-info, .main-link {
+.main-info {
   font-size: 19px;
   line-height: 28px;
 }
 
-/* line 25, C:/Users/Keeley/Desktop/Mobile Design/Assignment 3/uikit-2.27.2/scss/style.scss */
-.main-link {
-  font-size: 22px;
+/* line 26, C:/Users/Keeley/Desktop/Mobile Design/Assignment 3/uikit-2.27.2/scss/style.scss */
+.thumbnails {
+  margin: auto 16px auto 16px;
+  padding-right: 35px;
 }
 
-/* line 31, C:/Users/Keeley/Desktop/Mobile Design/Assignment 3/uikit-2.27.2/scss/style.scss */
+/* line 32, C:/Users/Keeley/Desktop/Mobile Design/Assignment 3/uikit-2.27.2/scss/style.scss */
 footer {
-  margin-bottom: 32px;
+  text-align: center;
+  margin-top: 48px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #d8f5f2;
+}
+
+/* line 39, C:/Users/Keeley/Desktop/Mobile Design/Assignment 3/uikit-2.27.2/scss/style.scss */
+footer p {
+  margin-bottom: 0;
 }
 
 /*# sourceMappingURL=../css/style.map */

@@ -22,16 +22,21 @@ main {
     line-height: 28px;
 }
 
-.main-link {
-    @extend .main-info;
-    font-size: 22px;
+// About page thumbnail styling
+.thumbnails {
+    margin: auto 16px auto 16px;
+    padding-right: 35px;
 }
 
 // Footer styling
 footer {
-    margin-bottom: 32px;
+    text-align: center;
+    margin-top: 48px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: lighten(#2EBAAB, 45%);
     
-    li {
-        float: left;
+    p {
+        margin-bottom: 0;
     }
 }

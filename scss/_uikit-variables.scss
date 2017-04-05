@@ -781,11 +781,14 @@ $text-contrast-color:                            #fff !default;
 $thumbnail-padding:                              4px !default;
 $thumbnail-border:                               #ddd !default;
 $thumbnail-border-width:                         1px !default;
-$thumbnail-background:                           #fff !default;
+// I changed the $thumbnail-background value
+$thumbnail-background:                           #d9eaed;
 $thumbnail-hover-border:                         #aaa !default;
-$thumbnail-hover-background:                     #fff !default;
+// I changed the $thumbnail-hover-background value
+$thumbnail-hover-background:                     #d9eaed;
 $thumbnail-caption-padding:                      $thumbnail-padding !default;
-$thumbnail-caption-color:                        #444 !default;
+// I changed the $thumbnail-caption-color value
+$thumbnail-caption-color:                        #19284B;
 $thumbnail-mini-width:                           150px !default;
 $thumbnail-small-width:                          200px !default;
 $thumbnail-medium-width:                         300px !default;
