@@ -28,6 +28,11 @@ main {
     padding-right: 35px;
 }
 
+// Contact Form styling
+.uk-form {
+    margin-top: 32px;
+}
+
 // Footer styling
 footer {
     text-align: center;
@@ -38,5 +43,9 @@ footer {
     
     p {
         margin-bottom: 0;
+    }
+    
+    i {
+        margin: auto 10px;
     }
 }

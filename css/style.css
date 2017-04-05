@@ -12199,6 +12199,11 @@ main {
 }
 
 /* line 32, C:/Users/Keeley/Desktop/Mobile Design/Assignment 3/uikit-2.27.2/scss/style.scss */
+.uk-form {
+  margin-top: 32px;
+}
+
+/* line 37, C:/Users/Keeley/Desktop/Mobile Design/Assignment 3/uikit-2.27.2/scss/style.scss */
 footer {
   text-align: center;
   margin-top: 48px;
@@ -12207,9 +12212,14 @@ footer {
   background-color: #d8f5f2;
 }
 
-/* line 39, C:/Users/Keeley/Desktop/Mobile Design/Assignment 3/uikit-2.27.2/scss/style.scss */
+/* line 44, C:/Users/Keeley/Desktop/Mobile Design/Assignment 3/uikit-2.27.2/scss/style.scss */
 footer p {
   margin-bottom: 0;
+}
+
+/* line 48, C:/Users/Keeley/Desktop/Mobile Design/Assignment 3/uikit-2.27.2/scss/style.scss */
+footer i {
+  margin: auto 10px;
 }
 
 /*# sourceMappingURL=../css/style.map */
