@@ -1692,6 +1692,7 @@ iframe {
   padding: 15px;
   background: #d9eaed;
   color: #19284B;
+  border: 1px solid #94c4cc;
 }
 
 /* line 184, C:/Users/Keeley/Desktop/Mobile Design/Assignment 3/uikit-2.27.2/scss/core/panel.scss */
@@ -1795,8 +1796,8 @@ iframe {
 /* line 273, C:/Users/Keeley/Desktop/Mobile Design/Assignment 3/uikit-2.27.2/scss/core/panel.scss */
 .uk-panel-header .uk-panel-title {
   padding-bottom: 10px;
-  border-bottom: 1px solid #ddd;
-  color: #444;
+  border-bottom: 1px solid #94c4cc;
+  color: #39A2B5;
 }
 
 /* Modifier: `uk-panel-space`
@@ -2004,7 +2005,7 @@ iframe {
 .uk-article-meta {
   font-size: 12px;
   line-height: 18px;
-  color: #999;
+  color: #ce568d;
 }
 
 /* Sub-object `uk-article-lead`
@@ -2511,8 +2512,9 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
  ========================================================================== */
 /* line 75, C:/Users/Keeley/Desktop/Mobile Design/Assignment 3/uikit-2.27.2/scss/core/navbar.scss */
 .uk-navbar {
-  background: #eee;
-  color: #444;
+  background: #d8f5f2;
+  color: #19284B;
+  border-bottom: 1px solid #9be5de;
 }
 
 /*
@@ -2564,7 +2566,7 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
   padding: 0 15px;
   line-height: 40px;
   /* 2 */
-  color: #444;
+  color: #C84280;
   font-size: 14px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
@@ -2586,8 +2588,8 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
 .uk-navbar-nav > li:hover > a,
 .uk-navbar-nav > li > a:focus,
 .uk-navbar-nav > li.uk-open > a {
-  background-color: #f5f5f5;
-  color: #444;
+  background-color: #c4f0ec;
+  color: #C84280;
   /* 3 */
   outline: none;
 }
@@ -2595,15 +2597,15 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
 /* OnClick */
 /* line 156, C:/Users/Keeley/Desktop/Mobile Design/Assignment 3/uikit-2.27.2/scss/core/navbar.scss */
 .uk-navbar-nav > li > a:active {
-  background-color: #ddd;
-  color: #444;
+  background-color: #bbeee9;
+  color: #C84280;
 }
 
 /* Active */
 /* line 163, C:/Users/Keeley/Desktop/Mobile Design/Assignment 3/uikit-2.27.2/scss/core/navbar.scss */
 .uk-navbar-nav > li.uk-active > a {
-  background-color: #f5f5f5;
-  color: #444;
+  background-color: #afebe5;
+  color: #C84280;
 }
 
 /* Sub-objects: `uk-navbar-nav-subtitle`
@@ -2699,7 +2701,7 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
 /* line 257, C:/Users/Keeley/Desktop/Mobile Design/Assignment 3/uikit-2.27.2/scss/core/navbar.scss */
 .uk-navbar-toggle {
   font-size: 18px;
-  color: #444;
+  color: #C84280;
   text-decoration: none;
 }
 
@@ -4075,8 +4077,9 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
   /* 4 */
   padding-bottom: 15px;
   /* 5 */
-  font-size: 18px;
+  font-size: 24px;
   line-height: 30px;
+  color: #2EBAAB;
 }
 
 /*
@@ -4392,14 +4395,14 @@ select.uk-form-width-mini {
   overflow: visible;
   /* 5 */
   font: inherit;
-  color: #444;
+  color: white;
   /* 6 */
   text-transform: none;
   /* 7 */
   display: inline-block;
   box-sizing: border-box;
   padding: 0 12px;
-  background: #eee;
+  background: #ce568d;
   vertical-align: middle;
   /* 8 */
   line-height: 30px;
@@ -4426,8 +4429,8 @@ select.uk-form-width-mini {
 /* line 168, C:/Users/Keeley/Desktop/Mobile Design/Assignment 3/uikit-2.27.2/scss/core/button.scss */
 .uk-button:hover,
 .uk-button:focus {
-  background-color: #f5f5f5;
-  color: #444;
+  background-color: #d36a9b;
+  color: white;
   /* 2 */
   outline: none;
   /* 3 */
@@ -4438,8 +4441,8 @@ select.uk-form-width-mini {
 /* line 180, C:/Users/Keeley/Desktop/Mobile Design/Assignment 3/uikit-2.27.2/scss/core/button.scss */
 .uk-button:active,
 .uk-button.uk-active {
-  background-color: #ddd;
-  color: #444;
+  background-color: #d05e93;
+  color: white;
 }
 
 /* Color modifiers
@@ -4744,7 +4747,7 @@ select.uk-form-width-mini {
   width: 35px;
   height: 35px;
   border-radius: 100%;
-  background: #eee;
+  background: white;
   line-height: 35px;
   color: #444;
   font-size: 18px;
@@ -8310,7 +8313,7 @@ a.uk-badge:hover {
   margin: 0;
   /* 4 */
   padding: 4px;
-  border: 1px solid #ddd;
+  border: 1px solid #94c4cc;
   background: #d9eaed;
 }
 
@@ -8456,7 +8459,7 @@ a.uk-thumbnail:focus {
 /* line 172, C:/Users/Keeley/Desktop/Mobile Design/Assignment 3/uikit-2.27.2/scss/core/overlay.scss */
 .uk-overlay-panel a:not([class]) {
   color: inherit;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 /* line 177, C:/Users/Keeley/Desktop/Mobile Design/Assignment 3/uikit-2.27.2/scss/core/overlay.scss */
@@ -12178,46 +12181,48 @@ a.uk-thumbnail:focus {
 
 /* line 12, C:/Users/Keeley/Desktop/Mobile Design/Assignment 3/uikit-2.27.2/scss/style.scss */
 main {
-  margin: 32px auto;
+  margin-top: 32px;
+  margin-bottom: 32px;
 }
 
-/* line 16, C:/Users/Keeley/Desktop/Mobile Design/Assignment 3/uikit-2.27.2/scss/style.scss */
-.main-header {
-  margin-bottom: 30px;
-}
-
-/* line 20, C:/Users/Keeley/Desktop/Mobile Design/Assignment 3/uikit-2.27.2/scss/style.scss */
+/* line 17, C:/Users/Keeley/Desktop/Mobile Design/Assignment 3/uikit-2.27.2/scss/style.scss */
 .main-info {
-  font-size: 19px;
+  font-size: 20px;
   line-height: 28px;
 }
 
-/* line 26, C:/Users/Keeley/Desktop/Mobile Design/Assignment 3/uikit-2.27.2/scss/style.scss */
+/* line 22, C:/Users/Keeley/Desktop/Mobile Design/Assignment 3/uikit-2.27.2/scss/style.scss */
+.main-link {
+  font-size: 22px;
+}
+
+/* line 27, C:/Users/Keeley/Desktop/Mobile Design/Assignment 3/uikit-2.27.2/scss/style.scss */
 .thumbnails {
   margin: auto 16px auto 16px;
   padding-right: 35px;
 }
 
-/* line 32, C:/Users/Keeley/Desktop/Mobile Design/Assignment 3/uikit-2.27.2/scss/style.scss */
+/* line 33, C:/Users/Keeley/Desktop/Mobile Design/Assignment 3/uikit-2.27.2/scss/style.scss */
 .uk-form {
   margin-top: 32px;
 }
 
-/* line 37, C:/Users/Keeley/Desktop/Mobile Design/Assignment 3/uikit-2.27.2/scss/style.scss */
+/* line 38, C:/Users/Keeley/Desktop/Mobile Design/Assignment 3/uikit-2.27.2/scss/style.scss */
 footer {
   text-align: center;
   margin-top: 48px;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   background-color: #d8f5f2;
+  border-top: 1px solid #9be5de;
 }
 
-/* line 44, C:/Users/Keeley/Desktop/Mobile Design/Assignment 3/uikit-2.27.2/scss/style.scss */
+/* line 46, C:/Users/Keeley/Desktop/Mobile Design/Assignment 3/uikit-2.27.2/scss/style.scss */
 footer p {
   margin-bottom: 0;
 }
 
-/* line 48, C:/Users/Keeley/Desktop/Mobile Design/Assignment 3/uikit-2.27.2/scss/style.scss */
+/* line 50, C:/Users/Keeley/Desktop/Mobile Design/Assignment 3/uikit-2.27.2/scss/style.scss */
 footer i {
   margin: auto 10px;
 }

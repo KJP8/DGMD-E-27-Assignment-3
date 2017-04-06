@@ -205,7 +205,10 @@
 @mixin hook-form(){}
 @mixin hook-form-focus(){}
 @mixin hook-form-disabled(){}
-@mixin hook-form-legend(){}
+// I customized this mixin
+@mixin hook-form-legend(){
+    color: #2EBAAB;
+}
 @mixin hook-form-danger(){}
 @mixin hook-form-success(){}
 @mixin hook-form-blank(){}
@@ -267,7 +270,10 @@
 @mixin hook-overlay-area-icon(){}
 @mixin hook-overlay-area-content(){}
 @mixin hook-overlay-caption(){}
-@mixin hook-navbar(){}
+// I customized this mixin
+@mixin hook-navbar(){
+    border-bottom: 1px solid darken(#d8f5f2, 15%);
+}
 @mixin hook-navbar-nav(){}
 @mixin hook-navbar-nav-hover(){}
 @mixin hook-navbar-nav-onclick(){}
@@ -283,7 +289,10 @@
 @mixin hook-pagination-misc(){}
 @mixin hook-panel-title(){}
 @mixin hook-panel-badge(){}
-@mixin hook-panel-box(){}
+// I customized this mixin
+@mixin hook-panel-box(){
+    border: 1px solid darken(#d9eaed, 20%);
+}
 @mixin hook-panel-box-hover(){}
 @mixin hook-panel-box-primary(){}
 @mixin hook-panel-box-primary-hover(){}

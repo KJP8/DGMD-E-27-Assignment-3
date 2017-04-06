@@ -203,7 +203,8 @@ $article-title-font-weight:                      normal !default;
 $article-title-text-transform:                   none !default;
 $article-meta-font-size:                         12px !default;
 $article-meta-line-height:                       18px !default;
-$article-meta-color:                             #999 !default;
+// I changed the $article-meta-color value
+$article-meta-color:                             #ce568d;
 $article-lead-color:                             #444 !default;
 $article-lead-font-size:                         18px !default;
 $article-lead-line-height:                       24px !default;
@@ -313,12 +314,18 @@ $button-mini-padding-horizontal:                 6px !default;
 $button-small-padding-horizontal:                10px !default;
 $button-large-padding-horizontal:                15px !default;
 $button-font-size:                               1rem !default;
-$button-background:                              #eee !default;
-$button-color:                                   #444 !default;
-$button-hover-background:                        #f5f5f5 !default;
-$button-hover-color:                             #444 !default;
-$button-active-background:                       #ddd !default;
-$button-active-color:                            #444 !default;
+// I changed the $button-background value
+$button-background:                              lighten(#C84280, 5%);
+// I changed the $button-color value
+$button-color:                                   white;
+// I changed the $button-hover-background value
+$button-hover-background:                        lighten($button-background, 5%);
+// I changed the $button-hover-color value
+$button-hover-color:                             $button-color;
+// I changed the $button-active-background value
+$button-active-background:                       darken($button-hover-background, 3%);
+// I changed the $button-active-color value
+$button-active-color:                            $button-color;
 $button-primary-background:                      #00a8e6 !default;
 $button-primary-color:                           #fff !default;
 $button-primary-hover-background:                #35b3ee !default;
@@ -464,7 +471,8 @@ $form-placeholder-color:                         #999 !default;
 $form-gutter:                                    15px !default;
 $form-legend-border:                             #ddd !default;
 $form-legend-border-width:                       1px !default;
-$form-legend-font-size:                          18px !default;
+// I changed the $form-legend-font-size value
+$form-legend-font-size:                          24px;
 $form-legend-line-height:                        30px !default;
 $form-small-height:                              25px !default;
 $form-large-height:                              40px !default;
@@ -518,7 +526,8 @@ $icon-hover-hover-color:                         #444 !default;
 $icon-button-width:                              35px !default;
 $icon-button-height:                             $icon-button-width !default;
 $icon-button-border-radius:                      100% !default;
-$icon-button-background:                         #eee !default;
+// I changed the $icon-button-background value
+$icon-button-background:                         white;
 $icon-button-font-size:                          round(($icon-button-width * 0.5)) !default;
 $icon-button-color:                              #444 !default;
 $icon-button-hover-background:                   #f5f5f5 !default;
@@ -604,30 +613,40 @@ $nav-offcanvas-divider-border:                   #1a1a1a !default;
 $nav-offcanvas-divider-border-width:             1px !default;
 $nav-offcanvas-nested-color:                     #ccc !default;
 $nav-offcanvas-nested-hover-color:               #fff !default;
-$navbar-background:                              #eee !default;
-$navbar-color:                                   #444 !default;
+// I changed the $navbar-background value
+$navbar-background:                              #d8f5f2;
+// I changed the $navbar-color value
+$navbar-color:                                   #19284B;
 $navbar-link-color:                              #07D !default;
 $navbar-link-hover-color:                        #059 !default;
 $navbar-nav-height:                              40px !default;
 $navbar-nav-line-height:                         $navbar-nav-height !default;
 $navbar-nav-padding-horizontal:                  15px !default;
-$navbar-nav-color:                               #444 !default;
+// I changed the $navbar-nav-color value
+$navbar-nav-color:                               #C84280;
 $navbar-nav-font-size:                           14px !default;
 $navbar-nav-font-weight:                         normal !default;
 $navbar-nav-font-family:                         "Helvetica Neue", Helvetica, Arial, sans-serif !default;
-$navbar-nav-hover-background:                    #f5f5f5 !default;
-$navbar-nav-hover-color:                         #444 !default;
-$navbar-nav-onclick-background:                  #ddd !default;
-$navbar-nav-onclick-color:                       #444 !default;
-$navbar-nav-active-background:                   #f5f5f5 !default;
-$navbar-nav-active-color:                        #444 !default;
+// I changed the $navbar-nav-hover-background value
+$navbar-nav-hover-background:                    lighten(#2EBAAB, 40%);
+// I changed the $navbar-nav-hover-color value
+$navbar-nav-hover-color:                         $navbar-nav-color;
+// I changed the $navbar-nav-onclick-background value
+$navbar-nav-onclick-background:                  lighten(#2EBAAB, 38%);
+// I changed the $navbar-nav-onclick-color value
+$navbar-nav-onclick-color:                       $navbar-nav-color;
+// I changed the $navbar-nav-active-background value
+$navbar-nav-active-background:                   lighten(#2EBAAB, 35%);
+// I changed the $navbar-nav-active-color value
+$navbar-nav-active-color:                        $navbar-nav-color;
 $navbar-nav-subtitle-font-size:                  10px !default;
 $navbar-nav-subtitle-offset:                     2px !default;
 $navbar-brand-font-size:                         18px !default;
 $navbar-brand-color:                             #444 !default;
 $navbar-brand-hover-color:                       #444 !default;
 $navbar-toggle-font-size:                        18px !default;
-$navbar-toggle-color:                            #444 !default;
+// I changed the $navbar-toggle-color value
+$navbar-toggle-color:                            $navbar-nav-color;
 $navbar-toggle-hover-color:                      #444 !default;
 $navbar-toggle-icon:                             "\f0c9" !default;
 $navbar-toggle-icon-alt:                         "\f002" !default;
@@ -655,7 +674,8 @@ $overlay-spin-out-scale:                         1 !default;
 $overlay-spin-in-rotate:                         3deg !default;
 $overlay-spin-out-rotate:                        0deg !default;
 $overlay-panel-link-color:                       inherit !default;
-$overlay-panel-link-text-decoration:             underline !default;
+// I change the $overlay-panel-link-text-decoration value
+$overlay-panel-link-text-decoration:             none;
 $overlay-area-background:                        rgba(0,0,0,0.3) !default;
 $overlay-area-icon:                              "\f002" !default;
 $overlay-area-icon-size:                         50px !default;
@@ -716,9 +736,11 @@ $panel-hover-badge-top:                          10px !default;
 $panel-hover-badge-right:                        $panel-hover-badge-top !default;
 $panel-hover-teaser-margin:                      -$panel-hover-padding !default;
 $panel-header-title-padding:                     10px !default;
-$panel-header-title-border:                      #ddd !default;
+// I changed the $panel-header-title-border value
+$panel-header-title-border:                      darken(#d9eaed, 20%);
 $panel-header-title-border-width:                1px !default;
-$panel-header-title-color:                       #444 !default;
+// I changed the $panel-header-title-color value
+$panel-header-title-color:                       #39A2B5;
 $panel-space-padding:                            30px !default;
 $panel-divider-gutter:                           25px !default;
 $panel-divider-gutter-large:                     35px !default;
@@ -779,7 +801,8 @@ $text-warning-color:                             #e28327 !default;
 $text-danger-color:                              #d85030 !default;
 $text-contrast-color:                            #fff !default;
 $thumbnail-padding:                              4px !default;
-$thumbnail-border:                               #ddd !default;
+// I changed the $thumbnail-border value
+$thumbnail-border:                               darken(#d9eaed, 20%);
 $thumbnail-border-width:                         1px !default;
 // I changed the $thumbnail-background value
 $thumbnail-background:                           #d9eaed;
