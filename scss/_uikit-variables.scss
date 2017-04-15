@@ -659,7 +659,8 @@ $offcanvas-panel-color:                          #777 !default;
 $offcanvas-panel-link-color:                     #ccc !default;
 $offcanvas-panel-link-hover-color:               #fff !default;
 $offcanvas-panel-title-color:                    $offcanvas-panel-link-color !default;
-$overlay-panel-padding:                          20px !default;
+// I changed the $overlay-panel-padding value
+$overlay-panel-padding:                          10px;
 $overlay-panel-color:                            #fff !default;
 $overlay-panel-background:                       rgba(0,0,0,0.5) !default;
 $overlay-icon:                                   "\f002" !default;
@@ -674,7 +675,7 @@ $overlay-spin-out-scale:                         1 !default;
 $overlay-spin-in-rotate:                         3deg !default;
 $overlay-spin-out-rotate:                        0deg !default;
 $overlay-panel-link-color:                       inherit !default;
-// I change the $overlay-panel-link-text-decoration value
+// I changed the $overlay-panel-link-text-decoration value
 $overlay-panel-link-text-decoration:             none;
 $overlay-area-background:                        rgba(0,0,0,0.3) !default;
 $overlay-area-icon:                              "\f002" !default;

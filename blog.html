@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <title>Blog</title>
         <link rel="stylesheet" href="css/style.css" />
@@ -11,6 +11,12 @@
         <script type="text/javascript" src="js/components/sticky.min.js"></script>
         <script type="text/javascript" src="js/core/offcanvas.min.js"></script>
         <script type="text/javascript" src="js/core/modal.min.js"></script>
+        <!-- Inclide Picturefill https://scottjehl.github.io/picturefill/ -->
+        <script>
+            // Picture element HTML5 shiv
+            document.createElement( "picture" );
+        </script>
+        <script type="text/javascript" src="js/picturefill.js" async></script>
     </head>
     <body>
         
@@ -46,7 +52,13 @@
                 <figure class="uk-overlay">
                     <!-- Cover Layout to ensure the image takes up the entire screen width-->
                     <div class="uk-cover-background">
-                        <img src="img/background/background-large.jpg" alt="Cable Beach Background">
+                        <picture>
+                            <!--[if IE 9]><video style="display: none;"><![endif]-->
+                            <source srcset="img/background/background-large.jpg" media="(min-width: 768px)">
+                            <source srcset="img/background/background-medium.jpg" media="(min-width: 480px)">
+                            <!--[if IE 9]></video><![endif]-->
+                            <img src="img/background/background-sm.jpg" alt="Cable Beach Background">
+                        </picture>
                     </div>
                     <figcaption class="uk-overlay-panel uk-overlay-background uk-overlay-bottom">
                         <h1><a href="index.html">Keeley and Kevin's Spring Break 2017</a></h1>
@@ -145,8 +157,8 @@
                         </div>
                     </div>
                 </li>
-            </main>
-        </div>
+            </ul>
+        </main>
 
         <!-- Modal JS Widgets -->
         <!-- Monday -->
@@ -155,7 +167,7 @@
                 <a class="uk-modal-close uk-close"></a>
                 <!-- Article Layout -->
                 <article class="uk-article">
-                    <h1 class="uk-article-title">Monday</h1>
+                    <h2 class="uk-article-title">Monday</h2>
                     <p class="uk-article-meta">Posted on March 13, 2017</p>
                     <div class="uk-overflow-container">
                         <p class="uk-article-lead">Monday was a very long day. We woke up at 5:00am, quickly showered, got an Uber, and headed to Boston Logan Airport for our 8:30am flight to Pittsburgh, PA. We probably didn't need to get up and going so early because it only took 10 minutes to get our bag checked and get through security. We had an hour and a half to kill before boarding. We got some coffee and breakfast and waited patiently for our first flight.</p>
@@ -175,7 +187,7 @@
                 <a class="uk-modal-close uk-close"></a>
                 <!-- Article Layout -->
                 <article class="uk-article">
-                    <h1 class="uk-article-title">Tuesday</h1>
+                    <h2 class="uk-article-title">Tuesday</h2>
                     <p class="uk-article-meta">Posted on March 14, 2017</p>
                     <div class="uk-overflow-container">
                         <p class="uk-article-lead">We woke up Tuesday morning around 9:00am and promptly changed and headed down to get breakfast. We ate breakfast seaside. The restaurant had every breakfast food you could ever imagine from simple toast to fancy customized omelets to blueberry blintzes and everything in between. I think we both ate our weight in food that morning.</p>
@@ -194,7 +206,7 @@
                 <a class="uk-modal-close uk-close"></a>
                 <!-- Article Layout -->
                 <article class="uk-article">
-                    <h1 class="uk-article-title">Wednesday</h1>
+                    <h2 class="uk-article-title">Wednesday</h2>
                     <p class="uk-article-meta">Posted on March 15, 2017</p>
                     <div class="uk-overflow-container">
                         <p class="uk-article-lead">We woke up at 6:30am in order to have enough time to eat breakfast, pack for the day, and catch our 7:30am bus to Atlantis. I didn't imagine we'd have to wake up so early while on vacation, but it was so worth it.</p>
@@ -221,7 +233,7 @@
                 <a class="uk-modal-close uk-close"></a>
                 <!-- Article Layout -->
                 <article class="uk-article">
-                    <h1 class="uk-article-title">Thursday</h1>
+                    <h2 class="uk-article-title">Thursday</h2>
                     <p class="uk-article-meta">Posted on March 16, 2017</p>
                     <div class="uk-overflow-container">
                         <p class="uk-article-lead">We slept in again on Thursday and then did the same thing as the past two days - ate delicious breakfast by the beach.</p>
@@ -241,7 +253,7 @@
                 <a class="uk-modal-close uk-close"></a>
                 <!-- Article Layout -->
                 <article class="uk-article">
-                    <h1 class="uk-article-title">Friday</h1>
+                    <h2 class="uk-article-title">Friday</h2>
                     <p class="uk-article-meta">Posted on March 17, 2017</p>
                     <div class="uk-overflow-container">
                         <p class="uk-article-lead">This was our last day in the Bahamas and surprisingly, we were looking forward to coming home. We'd had a ton of fun, but I missed my job and we both missed our cat and our bed.</p>
